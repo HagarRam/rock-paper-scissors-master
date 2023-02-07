@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+		<title>Frontend Mentor | Rock, Paper, Scissors</title>
+	</head>
+	<body>
+		<div class="headerContainer">
+			<div class="boxGame">
+				<div class="boxName">
+					<img
+						alt="logo"
+						src="./images/logo-bonus.svg" />
+				</div>
+				<div class="score">
+					<div class="scoreTitle">score</div>
+					<div id="scoreValue">12</div>
+				</div>
+			</div>
+		</div>
+		<div class="game">
+			<div
+				id="startGame"
+				class="startGame">
+				<div class="firstRow">
+					<div
+						id="scissorsContainer"
+						class="scissorsContainer">
+						<span
+							class="botton"
+							id="scissors"></span>
+					</div>
+				</div>
+				<div class="secondRow">
+					<div
+						id="spockContainer"
+						class="spockContainer">
+						<span
+							class="botton"
+							id="spock"></span>
+					</div>
+					<div
+						id="paperContainer"
+						class="paperContainer">
+						<span
+							class="botton"
+							id="paper"></span>
+					</div>
+				</div>
+				<div class="thirdRow">
+					<div
+						id="rockContainer"
+						class="rockContainer">
+						<span
+							class="botton"
+							id="rock"></span>
+					</div>
+					<div
+						id="lizardContainer"
+						class="lizardContainer">
+						<span
+							class="botton"
+							id="lizard"></span>
+					</div>
+				</div>
+			</div>
+			<div
+				id="afterChoice"
+				class="afterChoice">
+				<div
+					id="choice"
+					class="choice">
+					<div
+						id="titleChoice"
+						class="titleChoice">
+						YOU PICKED
+					</div>
+					<div id="choiceContainer"></div>
+				</div>
+				<div
+					id="playAgain"
+					class="playAgain">
+					<div class="winnerTitle">
+						<div
+							id="winner"
+							class="winnerTitle"></div>
+						<button
+							type="submit"
+							id="playAgainButton">
+							PLAY AGAIN
+						</button>
+					</div>
+				</div>
+				<div
+					id="randomChoice"
+					class="randomChoiceDiv">
+					<div class="randomChoiceTitle">THE HOUSE PICKED</div>
+					<div id="waiting"></div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="rules">
+				<button id="rulesButton">RULES</button>
+				<div
+					id="rulesModal"
+					class="modal">
+					<div class="content">
+						<span
+							id="closeButton"
+							class="close"
+							>&times;</span
+						>
+						<div class="modalTitle">Rules</div>
+						<img
+						id="imgRules"
+							alt="rulesImage"
+							src="./images/image-rules-bonus.svg" />
+							
+					</div>
+				</div>
+			</div>
+			<div class="attribution">
+				Challenge by
+				<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"></a
+				>. Coded by <a href="#">Hagar Ram</a>.
+			</div>
+			</footer>
+		</div>
+		<script src="mains.js"></script>
+	</body>
+</html>

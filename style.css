@@ -285,6 +285,7 @@ button:active {
 	height: 88%;
 	margin-top: 7%;
 	margin-left: 30px;
+	object-fit: contain;
 }
 
 .close {
